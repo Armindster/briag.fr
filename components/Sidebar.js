@@ -21,19 +21,19 @@ export default function Sidebar() {
       <div className="flex flex-col flex-end">
         <h3 className="font-bold mb-4 self-center">Contact</h3>
         <div className="flex flex-row flex-wrap justify-around">
-          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="mailto:briag.froux@epitech.eu">
+          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="mailto:briag.froux@epitech.eu" target="_blank" rel="noopener noreferrer">
             <IoMailOutline className="mr-2"/>
             Mail
           </a>
-          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.linkedin.com/in/briag-froux-rotru-92514a17a/">
+          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.linkedin.com/in/briag-froux-rotru-92514a17a/" target="_blank" rel="noopener noreferrer">
             <IoLogoLinkedin className="mr-2"/>
             LinkedIn
           </a>
-          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.github.com/Armindster">
+          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.github.com/Armindster" target="_blank" rel="noopener noreferrer">
             <IoLogoGithub className="mr-2"/>
             GitHub
           </a>
-          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.codepen.io/Armindster">
+          <a className="flex flex-row justify-around items-center border-black border-2 rounded-full p-2 hover:border-white ease-in duration-100" href="https://www.codepen.io/Armindster" target="_blank" rel="noopener noreferrer">
             <IoLogoCodepen className="mr-2"/>
             Codepen
           </a>
