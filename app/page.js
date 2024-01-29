@@ -4,8 +4,8 @@ import Card from "@components/Card";
 
 export default function Home() {
   return (
-    <main className="flex flex-row min-h-screen min-w-screen max-h-screen max-w-screen">
-      <Sidebar />
+    <main className="flex flex-col lg:flex-row min-h-screen min-w-screen max-h-screen max-w-screen">
+      <Sidebar className="z-0"/>
       <div className="flex-1 flex flex-col bg-gradient-to-b from-cyan-500 to-black overflow-y-auto">
         <Card
           title="EasyTerms"
