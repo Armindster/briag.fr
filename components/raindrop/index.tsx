@@ -9,7 +9,7 @@ export default function Raindrop(
   const renderRaindrops = useMemo(() => {
     const raindrops = [];
 
-    for (var i = 0; i < 40; i++) {
+    for (let i = 0; i < 40; i++) {
       const delay = rand(0, 2000);
       const top = rand(-20, 130);
       const left = rand(-10, 100);
