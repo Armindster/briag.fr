@@ -29,6 +29,11 @@
   justify-self: center;
 }
 
+.subtitle {
+  color: dimgray;
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
   .card {
     grid-template-columns: 1fr;

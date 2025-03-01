@@ -9,6 +9,7 @@ export default function Home() {
       <div style={{ flex: 1, display: 'grid', padding: '2rem', gap: '1rem',  overflowY: 'auto' }}>
         <Card
           title="KLAVA Innovation"
+          subtitle="Développeur mobile et full stack - React Native / Firebase / WordPress"
           content={`KLAVA Innovation développe des solutions numériques pour aider les personnes
 souffrant d'addictions. Leur solution phare, Quitoxil, est un dispositif médical certifié CE sur
 smartphone qui accompagne les utilisateurs dans leur sevrage tabagique. Il propose des thérapies
@@ -19,6 +20,7 @@ pour mieux comprendre l'addiction au tabac et une assistance avec de patients-ex
         />
         <Card
           title="KMEX Consulting"
+          subtitle="Développeur logiciel - C++ / C#/.NET"
           content={`KMEX Consulting est une entreprise de service spécialisée dans la mise en place
 de solution de gestion pour les entreprises du Bâtiment et des Travaux Publics. KMEX est également
 éditeur de logiciels de Suivi budgétaire de chantiers.`}
@@ -27,6 +29,7 @@ de solution de gestion pour les entreprises du Bâtiment et des Travaux Publics.
         />
         <Card
           title="EasyTerms"
+          subtitle="Développeur mobile - React Native"
           content={`EasyTerms est une application mobile innovante qui permet de résumer rapidement
 les conditions générales d'utilisation (CGU) de différentes applications. En quelques clics, les
 utilisateurs peuvent accéder à une synthèse claire et concise des termes et conditions souvent
@@ -40,6 +43,7 @@ entier.`}
         />
         <Card
           title="Jhonny and Jhon"
+          subtitle="Conception et programmation - Godot 3.1"
           content={`Vous incarnez Jhonny et Jhon. Jhonny est aveugle et Jhon est en fauteuil
 roulant. Votre objectif est de faire sortir Jhonny et Jhon du bâtiment aussi vite que possible en
 utilisant leurs deux capacités. Vous devrez collecter des objets et des clés pour déverrouiller les

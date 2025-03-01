@@ -5,6 +5,7 @@ import { Props } from './card';
 
 export default function Card({
   title,
+  subtitle,
   content,
   image,
   link,
@@ -13,6 +14,7 @@ export default function Card({
     <a href={link} className={styles.card} target="_blank">
       <div className={styles.content}>
         <h1>{title}</h1>
+        <h2 className={styles.subtitle}>{subtitle}</h2>
         <p>{content}</p>
       </div>
       <Image
