@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <Sidebar />
-      <div style={{ flex: 1, display: 'grid', padding: '2rem', gap: '1rem',  overflowY: 'auto' }}>
+      <div className={styles.content}>
         <Card
           title="KLAVA Innovation"
           subtitle="Développeur mobile et full stack - React Native / Firebase / WordPress"

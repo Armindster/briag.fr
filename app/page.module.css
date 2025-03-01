@@ -5,6 +5,14 @@
   width: 100vw;
 }
 
+.content {
+  flex: 1;
+  display: grid;
+  padding: 2rem;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
 @media (max-width: 768px) {
   .page {
     flex-direction: column;
