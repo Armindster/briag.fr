@@ -9,6 +9,7 @@ import {
   IoLogoCodepen,
   IoCaretDown,
   IoCaretUp,
+  IoDownloadOutline,
 } from 'react-icons/io5';
 import styles from './sidebar.module.css';
 
@@ -83,6 +84,10 @@ export default function Sidebar() {
             </tr>
           </tbody>
         </table>
+        <a href="/CV Briag FROUX ROTRU 2025.pdf" className={styles.link} download>
+          <IoDownloadOutline />
+          CV complet
+        </a>
       </div>
       <div className={styles.linksContainer}>
         <h2>Contacts</h2>
